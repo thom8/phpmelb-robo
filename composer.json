@@ -3,6 +3,7 @@
         "consolidation/robo": "^1.0"
     },
     "scripts": {
-        "commit": "robo commit --ansi"
+        "commit": "robo commit --ansi",
+        "hello": "robo hello test"
     }
 }
