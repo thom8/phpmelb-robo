@@ -7,6 +7,11 @@
 class RoboFile extends \Robo\Tasks
 {
     // define public methods as commands
+    function hello($world = 'world')
+    {
+        $this->say("Hello, $world");
+    }
+
     public function commit($msg = '')
     {
         if (empty($msg)) {
